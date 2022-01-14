@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Conflict</title>
+	<style type="text/css">
+		.light{
+			background-color: yellow;
+		}
+		li{
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>What is CSS Conflict?</h1>
+	<p>In CSS there some rule that make html decide what CSS declaration used if theres more than one CSS Modification refer to an element.</p>
+	<ol>
+		<li>Origin</li>
+		<p><b class="light">Conflict<br></b>
+		Last Declaration win,if u declare css p element inside html with background color:red,and the element it self contain inline style with background color:yellow,than the last declaration is inline style.<br><b class="light">
+		No Conflict<br></b>
+		When theres no conflict than it will merge,example p have style background color,and p inline have style font size.it will merge.
+		</p>
+		<li>Inheritance</li>
+		<p>Any element that wrapped/child of other element will inherit its parent css style</p>
+		<li>Merge</li>
+		<p>Origin without conflict.</p>
+		<li>Specificity</li>
+		<p>The more specific your target declaration it will have more priorty/score.score in descending order<br>
+		inline style + ID + classes + number of element=PRIORITY/SCORE
+		</p>
+	</ol>
+</body>
+</html>

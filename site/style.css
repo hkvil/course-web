@@ -8,7 +8,7 @@
 			text-decoration: none;
 			background-color: yellow;
 		}
-		.menu a:link,.menu a:visited,.css a:link,css a:active{
+		a:visited,a:link,a:active{
 			text-decoration: none;
 			background-color: greenyellow;
 			display: block;
@@ -40,6 +40,7 @@
 			background-color: lightsalmon;
 		}
 		.as{
+			margin-top: 10px;
 			background-color: palevioletred;
-			width: 90%;
+			
 		}

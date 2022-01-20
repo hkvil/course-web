@@ -33,3 +33,13 @@
 		.css{
 			background-color: yellowgreen;
 		}
+		body{
+			background-color: lightskyblue;
+		}
+		footer{
+			background-color: lightsalmon;
+		}
+		.as{
+			background-color: palevioletred;
+			width: 90%;
+		}

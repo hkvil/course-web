@@ -1,0 +1,69 @@
+body{
+	background-color: #c61e24;
+	font-size: 16px;
+	font-family: 'Oxygen',sans-serif;
+	box-sizing: border-box;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url('chu.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+	float: left;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora',sans-serif;
+	font-size: 1.5em;
+	color: #557c3e;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+}
+
+a,ul{
+	text-decoration: none;
+	list-style: none;
+}
+.navbar-brand p{
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-size: .7em;
+	color: #000;
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+.menu li{
+	float: left;
+	margin-right: 20px;
+}
+.menu{
+	margin-top: -10%;
+	margin-right: 10%;
+}
+li i{
+	padding-left: 10px;
+}
+li:hover{
+	background-color: whitesmoke;
+}
+
+/*
+green  = 557c3e 
+yellow = f6b319 
+red    = c61e24 
+gray   = 363636
+general font = oxgen 
+bussines name=lora

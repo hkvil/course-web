@@ -1,0 +1,64 @@
+body{
+	font-family: sans-serif;
+}
+#navbar-custom{
+	background-color: #4d99df;
+	border: 2px solid black;
+}
+#navbar-custom .navbar-brand{
+	font-weight: bold;
+}
+ul li,ul a{
+	text-decoration: none;
+	list-style: none;
+	color: inherit;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+	margin: 20px auto;
+}
+#nav-menu{
+	border: 1px solid black;
+	background-color: #64ddee;
+}
+#nav-menu a{
+	text-align: center;
+}
+ul{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+section{
+	margin: 5px 6px;
+	background-color: #999999;
+	max-width: 200px;
+}
+section span{
+	font-weight: bold;
+	/*display: table;
+	margin: 2px auto;*/
+	text-align: center;
+	display: block;
+}
+#chicken span{
+	background-color: #d49898;
+}
+#beef span{
+	background-color: #c14543;
+	color: whitesmoke;
+}
+#sushi span{
+	background-color: #e5d097;
+}
+section{
+	background-color: #84f15a;
+}
+h6{
+	text-decoration: none;
+	color: black;
+	background-color: skyblue;
+	border: solid 1px hotpink;
+	text-align: center;
+	margin-top: 50px;
+}
